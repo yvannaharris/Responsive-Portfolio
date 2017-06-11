@@ -1,0 +1,64 @@
+.content {
+	overflow: hidden;
+}
+.portfolio {
+	background: #ffffff;
+	width: 648px;
+	border: 1px solid #dddddd;
+	float: left;
+	margin: 40px 36px 20px 0px;
+	padding-bottom: 0px;
+}
+.gallery {
+	float: left;
+	padding: 0px 25px 0px 25px;
+}
+
+
+.desc {
+	padding: 13px;
+	text-align: center;
+	position: relative;
+	top: -57px;
+	background: #4aaaa5;
+	width: 244px;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.row {
+	clear: both;
+	width: 100%;
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+
+
+#hangman {
+	width: auto;
+	height: auto;
+	max-width: 270px;
+}
+
+#RPG {
+	width: 270px;
+	height: 180px;
+}
+
+#trivia {
+	width: auto;
+	height: auto;
+	max-width: 270px;
+}
+
+#rutgers {
+	width: auto;
+	height: auto;
+	max-width: 270px;
+}
+
+#rock-paper {
+	width: auto;
+	height: auto;
+	max-width: 270px;
+}

@@ -1,0 +1,123 @@
+/* Sidebar */
+
+.contact {
+	background: #ffffff;
+	width: 268px;
+	border: 1px solid #dddddd;
+	float: left;
+	margin: 40px 0px 0px 0px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 24px;
+	border-bottom: 1px solid #dddddd;
+	padding: 30px 20px 15px 20px;
+	margin-right: 25px;
+	margin-left: 25px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+#profiles {
+	list-style-type: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.icon {
+	float: left;
+}
+
+
+
+
+/* Footer */
+
+#page-footer {
+	background: #666666;
+	border-top: 8px solid #4aaaa5;
+	height: 100px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+#copyright {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	margin: 50px 512px 50px 512px
+}
+
+/* Contact Form */
+.contact-form {
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	width: 648px;
+	margin: 40px 36px 20px 0px;
+	float: left;
+	overflow: hidden;
+}
+
+#form-head {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #4aaaa5;
+	margin: 30px 20px 25px 20px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #dddddd;
+
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin: 15px 0px 20px 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #dddddd;
+    width: 97%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #dddddd; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+#message {
+
+	height: 200px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
