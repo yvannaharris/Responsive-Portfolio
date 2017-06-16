@@ -1,64 +1,82 @@
-.content {
-	overflow: hidden;
-}
-.portfolio {
-	background: #ffffff;
-	width: 648px;
-	border: 1px solid #dddddd;
-	float: left;
-	margin: 40px 36px 20px 0px;
-	padding-bottom: 0px;
-}
-.gallery {
-	float: left;
-	padding: 0px 25px 0px 25px;
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
 }
 
-
-.desc {
-	padding: 13px;
-	text-align: center;
-	position: relative;
-	top: -57px;
-	background: #4aaaa5;
-	width: 244px;
-	color: #ffffff;
-	font-size: 20px;
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
-.row {
-	clear: both;
-	width: 100%;
-	float: left;
-	margin: 0px 0px 0px 10px;
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
 }
 
-
-#hangman {
-	width: auto;
-	height: auto;
-	max-width: 270px;
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
 }
 
-#RPG {
-	width: 270px;
-	height: 180px;
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 
-#trivia {
-	width: auto;
-	height: auto;
-	max-width: 270px;
+@media screen and (max-width: 980px) {
+	.work {
+		float: none;
+	}
+
+	.main-section {
+		max-width: 450px;
+		margin-left: 100px;
+	}
 }
 
-#rutgers {
-	width: auto;
-	height: auto;
-	max-width: 270px;
+@media screen and (max-width: 768px) {
+	.main-section {
+		margin-left: 20px;
+		margin-right: 20px;
+		max-width: 95%;
+	}
+
+	.work {
+		float: left;
+	}
 }
 
-#rock-paper {
-	width: auto;
-	height: auto;
-	max-width: 270px;
+@media screen and (max-width: 640px) {
+	header {
+		position: static;
+	}
+
+	.main-section {
+		max-width: 94%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.work {
+		float: none;
+		width: 100%;
+	}
+
+
+
 }
