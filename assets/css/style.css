@@ -220,7 +220,7 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-	header {
+	#masthead {
 		position: static;
 	}
 
